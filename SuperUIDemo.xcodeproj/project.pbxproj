@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4247F73D15AFECDF00E2C1BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247F73C15AFECDF00E2C1BA /* UIKit.framework */; };
+		4247F73F15AFECDF00E2C1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247F73E15AFECDF00E2C1BA /* Foundation.framework */; };
+		4247F74115AFECDF00E2C1BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247F74015AFECDF00E2C1BA /* CoreGraphics.framework */; };
+		4247F74715AFECDF00E2C1BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4247F74515AFECDF00E2C1BA /* InfoPlist.strings */; };
+		4247F74915AFECDF00E2C1BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F74815AFECDF00E2C1BA /* main.m */; };
+		4247F74D15AFECDF00E2C1BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F74C15AFECDF00E2C1BA /* AppDelegate.m */; };
+		4247F75015AFECDF00E2C1BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F74F15AFECDF00E2C1BA /* ViewController.m */; };
+		4247F7A015AFED7600E2C1BA /* OTRuntimeSel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F76715AFED7600E2C1BA /* OTRuntimeSel.m */; };
+		4247F7A115AFED7600E2C1BA /* SUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F76B15AFED7600E2C1BA /* SUIAlertView.m */; };
+		4247F7A215AFED7600E2C1BA /* SUIAutoSkinButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F76E15AFED7600E2C1BA /* SUIAutoSkinButton.m */; };
+		4247F7A315AFED7600E2C1BA /* SUIAutoSkinImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F77015AFED7600E2C1BA /* SUIAutoSkinImageView.m */; };
+		4247F7A415AFED7600E2C1BA /* SUIAutoSkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F77215AFED7600E2C1BA /* SUIAutoSkinManager.m */; };
+		4247F7A515AFED7600E2C1BA /* SUIAutoSkinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F77415AFED7600E2C1BA /* SUIAutoSkinView.m */; };
+		4247F7A615AFED7600E2C1BA /* SUIAutoSkinViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F77615AFED7600E2C1BA /* SUIAutoSkinViewModel.m */; };
+		4247F7A715AFED7600E2C1BA /* SUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F77915AFED7600E2C1BA /* SUIButton.m */; };
+		4247F7A815AFED7600E2C1BA /* SUIGrowableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F77C15AFED7600E2C1BA /* SUIGrowableScrollView.m */; };
+		4247F7A915AFED7600E2C1BA /* SUIGrowableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F77E15AFED7600E2C1BA /* SUIGrowableTextView.m */; };
+		4247F7AA15AFED7600E2C1BA /* SUIInnerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F78015AFED7600E2C1BA /* SUIInnerTextView.m */; };
+		4247F7AB15AFED7600E2C1BA /* SUIScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F78315AFED7600E2C1BA /* SUIScrollLabel.m */; };
+		4247F7AC15AFED7600E2C1BA /* SUICell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F78615AFED7600E2C1BA /* SUICell.m */; };
+		4247F7AD15AFED7600E2C1BA /* SUICellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F78815AFED7600E2C1BA /* SUICellModel.m */; };
+		4247F7AE15AFED7600E2C1BA /* SUICellModelMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F78A15AFED7600E2C1BA /* SUICellModelMapping.m */; };
+		4247F7AF15AFED7600E2C1BA /* SUIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F78D15AFED7600E2C1BA /* SUIRuntime.m */; };
+		4247F7B015AFED7600E2C1BA /* SUISectionFooterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F78F15AFED7600E2C1BA /* SUISectionFooterModel.m */; };
+		4247F7B115AFED7600E2C1BA /* SUISectionHeaderFooterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79115AFED7600E2C1BA /* SUISectionHeaderFooterModel.m */; };
+		4247F7B215AFED7600E2C1BA /* SUISectionHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79315AFED7600E2C1BA /* SUISectionHeaderModel.m */; };
+		4247F7B315AFED7600E2C1BA /* SUISectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79515AFED7600E2C1BA /* SUISectionModel.m */; };
+		4247F7B415AFED7600E2C1BA /* SUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79715AFED7600E2C1BA /* SUITableView.m */; };
+		4247F7B515AFED7600E2C1BA /* sliderMaxMin-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4247F79915AFED7600E2C1BA /* sliderMaxMin-02.png */; };
+		4247F7B615AFED7600E2C1BA /* sliderThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 4247F79A15AFED7600E2C1BA /* sliderThumb.png */; };
+		4247F7B715AFED7600E2C1BA /* sliderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4247F79B15AFED7600E2C1BA /* sliderTrack.png */; };
+		4247F7B815AFED7600E2C1BA /* SUITwinkleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79D15AFED7600E2C1BA /* SUITwinkleLabel.m */; };
+		4247F7B915AFED7600E2C1BA /* SUIUnlockSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79F15AFED7600E2C1BA /* SUIUnlockSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4247F73815AFECDF00E2C1BA /* SuperUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4247F73C15AFECDF00E2C1BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4247F73E15AFECDF00E2C1BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4247F74015AFECDF00E2C1BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4247F74415AFECDF00E2C1BA /* SuperUIDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperUIDemo-Info.plist"; sourceTree = "<group>"; };
+		4247F74615AFECDF00E2C1BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4247F74815AFECDF00E2C1BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4247F74A15AFECDF00E2C1BA /* SuperUIDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperUIDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4247F74B15AFECDF00E2C1BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4247F74C15AFECDF00E2C1BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4247F74E15AFECDF00E2C1BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4247F74F15AFECDF00E2C1BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4247F75F15AFED7600E2C1BA /* OTRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntime.h; sourceTree = "<group>"; };
+		4247F76015AFED7600E2C1BA /* OTRuntimeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntimeClass.h; sourceTree = "<group>"; };
+		4247F76115AFED7600E2C1BA /* OTRuntimeIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntimeIvar.h; sourceTree = "<group>"; };
+		4247F76215AFED7600E2C1BA /* OTRuntimeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntimeMethod.h; sourceTree = "<group>"; };
+		4247F76315AFED7600E2C1BA /* OTRuntimeObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntimeObjc.h; sourceTree = "<group>"; };
+		4247F76415AFED7600E2C1BA /* OTRuntimeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntimeObject.h; sourceTree = "<group>"; };
+		4247F76515AFED7600E2C1BA /* OTRuntimeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntimeProtocol.h; sourceTree = "<group>"; };
+		4247F76615AFED7600E2C1BA /* OTRuntimeSel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRuntimeSel.h; sourceTree = "<group>"; };
+		4247F76715AFED7600E2C1BA /* OTRuntimeSel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRuntimeSel.m; sourceTree = "<group>"; };
+		4247F76815AFED7600E2C1BA /* OTTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTypeDef.h; sourceTree = "<group>"; };
+		4247F76A15AFED7600E2C1BA /* SUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIAlertView.h; sourceTree = "<group>"; };
+		4247F76B15AFED7600E2C1BA /* SUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIAlertView.m; sourceTree = "<group>"; };
+		4247F76D15AFED7600E2C1BA /* SUIAutoSkinButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIAutoSkinButton.h; sourceTree = "<group>"; };
+		4247F76E15AFED7600E2C1BA /* SUIAutoSkinButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIAutoSkinButton.m; sourceTree = "<group>"; };
+		4247F76F15AFED7600E2C1BA /* SUIAutoSkinImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIAutoSkinImageView.h; sourceTree = "<group>"; };
+		4247F77015AFED7600E2C1BA /* SUIAutoSkinImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIAutoSkinImageView.m; sourceTree = "<group>"; };
+		4247F77115AFED7600E2C1BA /* SUIAutoSkinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIAutoSkinManager.h; sourceTree = "<group>"; };
+		4247F77215AFED7600E2C1BA /* SUIAutoSkinManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIAutoSkinManager.m; sourceTree = "<group>"; };
+		4247F77315AFED7600E2C1BA /* SUIAutoSkinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIAutoSkinView.h; sourceTree = "<group>"; };
+		4247F77415AFED7600E2C1BA /* SUIAutoSkinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIAutoSkinView.m; sourceTree = "<group>"; };
+		4247F77515AFED7600E2C1BA /* SUIAutoSkinViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIAutoSkinViewModel.h; sourceTree = "<group>"; };
+		4247F77615AFED7600E2C1BA /* SUIAutoSkinViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIAutoSkinViewModel.m; sourceTree = "<group>"; };
+		4247F77815AFED7600E2C1BA /* SUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIButton.h; sourceTree = "<group>"; };
+		4247F77915AFED7600E2C1BA /* SUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIButton.m; sourceTree = "<group>"; };
+		4247F77B15AFED7600E2C1BA /* SUIGrowableScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIGrowableScrollView.h; sourceTree = "<group>"; };
+		4247F77C15AFED7600E2C1BA /* SUIGrowableScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIGrowableScrollView.m; sourceTree = "<group>"; };
+		4247F77D15AFED7600E2C1BA /* SUIGrowableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIGrowableTextView.h; sourceTree = "<group>"; };
+		4247F77E15AFED7600E2C1BA /* SUIGrowableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIGrowableTextView.m; sourceTree = "<group>"; };
+		4247F77F15AFED7600E2C1BA /* SUIInnerTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIInnerTextView.h; sourceTree = "<group>"; };
+		4247F78015AFED7600E2C1BA /* SUIInnerTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIInnerTextView.m; sourceTree = "<group>"; };
+		4247F78215AFED7600E2C1BA /* SUIScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIScrollLabel.h; sourceTree = "<group>"; };
+		4247F78315AFED7600E2C1BA /* SUIScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIScrollLabel.m; sourceTree = "<group>"; };
+		4247F78515AFED7600E2C1BA /* SUICell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUICell.h; sourceTree = "<group>"; };
+		4247F78615AFED7600E2C1BA /* SUICell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUICell.m; sourceTree = "<group>"; };
+		4247F78715AFED7600E2C1BA /* SUICellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUICellModel.h; sourceTree = "<group>"; };
+		4247F78815AFED7600E2C1BA /* SUICellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUICellModel.m; sourceTree = "<group>"; };
+		4247F78915AFED7600E2C1BA /* SUICellModelMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUICellModelMapping.h; sourceTree = "<group>"; };
+		4247F78A15AFED7600E2C1BA /* SUICellModelMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUICellModelMapping.m; sourceTree = "<group>"; };
+		4247F78B15AFED7600E2C1BA /* SUIConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIConstant.h; sourceTree = "<group>"; };
+		4247F78C15AFED7600E2C1BA /* SUIRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIRuntime.h; sourceTree = "<group>"; };
+		4247F78D15AFED7600E2C1BA /* SUIRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIRuntime.m; sourceTree = "<group>"; };
+		4247F78E15AFED7600E2C1BA /* SUISectionFooterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUISectionFooterModel.h; sourceTree = "<group>"; };
+		4247F78F15AFED7600E2C1BA /* SUISectionFooterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUISectionFooterModel.m; sourceTree = "<group>"; };
+		4247F79015AFED7600E2C1BA /* SUISectionHeaderFooterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUISectionHeaderFooterModel.h; sourceTree = "<group>"; };
+		4247F79115AFED7600E2C1BA /* SUISectionHeaderFooterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUISectionHeaderFooterModel.m; sourceTree = "<group>"; };
+		4247F79215AFED7600E2C1BA /* SUISectionHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUISectionHeaderModel.h; sourceTree = "<group>"; };
+		4247F79315AFED7600E2C1BA /* SUISectionHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUISectionHeaderModel.m; sourceTree = "<group>"; };
+		4247F79415AFED7600E2C1BA /* SUISectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUISectionModel.h; sourceTree = "<group>"; };
+		4247F79515AFED7600E2C1BA /* SUISectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUISectionModel.m; sourceTree = "<group>"; };
+		4247F79615AFED7600E2C1BA /* SUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUITableView.h; sourceTree = "<group>"; };
+		4247F79715AFED7600E2C1BA /* SUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUITableView.m; sourceTree = "<group>"; };
+		4247F79915AFED7600E2C1BA /* sliderMaxMin-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderMaxMin-02.png"; sourceTree = "<group>"; };
+		4247F79A15AFED7600E2C1BA /* sliderThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb.png; sourceTree = "<group>"; };
+		4247F79B15AFED7600E2C1BA /* sliderTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderTrack.png; sourceTree = "<group>"; };
+		4247F79C15AFED7600E2C1BA /* SUITwinkleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUITwinkleLabel.h; sourceTree = "<group>"; };
+		4247F79D15AFED7600E2C1BA /* SUITwinkleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUITwinkleLabel.m; sourceTree = "<group>"; };
+		4247F79E15AFED7600E2C1BA /* SUIUnlockSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIUnlockSlider.h; sourceTree = "<group>"; };
+		4247F79F15AFED7600E2C1BA /* SUIUnlockSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIUnlockSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4247F73515AFECDF00E2C1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247F73D15AFECDF00E2C1BA /* UIKit.framework in Frameworks */,
+				4247F73F15AFECDF00E2C1BA /* Foundation.framework in Frameworks */,
+				4247F74115AFECDF00E2C1BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4247F72D15AFECDF00E2C1BA = {
+			isa = PBXGroup;
+			children = (
+				4247F74215AFECDF00E2C1BA /* SuperUIDemo */,
+				4247F75D15AFED7600E2C1BA /* SuperUI */,
+				4247F73B15AFECDF00E2C1BA /* Frameworks */,
+				4247F73915AFECDF00E2C1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4247F73915AFECDF00E2C1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4247F73815AFECDF00E2C1BA /* SuperUIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4247F73B15AFECDF00E2C1BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4247F73C15AFECDF00E2C1BA /* UIKit.framework */,
+				4247F73E15AFECDF00E2C1BA /* Foundation.framework */,
+				4247F74015AFECDF00E2C1BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4247F74215AFECDF00E2C1BA /* SuperUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4247F74B15AFECDF00E2C1BA /* AppDelegate.h */,
+				4247F74C15AFECDF00E2C1BA /* AppDelegate.m */,
+				4247F74E15AFECDF00E2C1BA /* ViewController.h */,
+				4247F74F15AFECDF00E2C1BA /* ViewController.m */,
+				4247F74315AFECDF00E2C1BA /* Supporting Files */,
+			);
+			path = SuperUIDemo;
+			sourceTree = "<group>";
+		};
+		4247F74315AFECDF00E2C1BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4247F74415AFECDF00E2C1BA /* SuperUIDemo-Info.plist */,
+				4247F74515AFECDF00E2C1BA /* InfoPlist.strings */,
+				4247F74815AFECDF00E2C1BA /* main.m */,
+				4247F74A15AFECDF00E2C1BA /* SuperUIDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4247F75D15AFED7600E2C1BA /* SuperUI */ = {
+			isa = PBXGroup;
+			children = (
+				4247F75E15AFED7600E2C1BA /* OpenThreadRuntime */,
+				4247F76915AFED7600E2C1BA /* SUIAlertView */,
+				4247F76C15AFED7600E2C1BA /* SUIAutoSkinView */,
+				4247F77715AFED7600E2C1BA /* SUIButton */,
+				4247F77A15AFED7600E2C1BA /* SUIGrowableTextView */,
+				4247F78115AFED7600E2C1BA /* SUIScrollLabel */,
+				4247F78415AFED7600E2C1BA /* SUITableView */,
+				4247F79815AFED7600E2C1BA /* SUIUnlockSlider */,
+			);
+			path = SuperUI;
+			sourceTree = "<group>";
+		};
+		4247F75E15AFED7600E2C1BA /* OpenThreadRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				4247F75F15AFED7600E2C1BA /* OTRuntime.h */,
+				4247F76015AFED7600E2C1BA /* OTRuntimeClass.h */,
+				4247F76115AFED7600E2C1BA /* OTRuntimeIvar.h */,
+				4247F76215AFED7600E2C1BA /* OTRuntimeMethod.h */,
+				4247F76315AFED7600E2C1BA /* OTRuntimeObjc.h */,
+				4247F76415AFED7600E2C1BA /* OTRuntimeObject.h */,
+				4247F76515AFED7600E2C1BA /* OTRuntimeProtocol.h */,
+				4247F76615AFED7600E2C1BA /* OTRuntimeSel.h */,
+				4247F76715AFED7600E2C1BA /* OTRuntimeSel.m */,
+				4247F76815AFED7600E2C1BA /* OTTypeDef.h */,
+			);
+			path = OpenThreadRuntime;
+			sourceTree = "<group>";
+		};
+		4247F76915AFED7600E2C1BA /* SUIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				4247F76A15AFED7600E2C1BA /* SUIAlertView.h */,
+				4247F76B15AFED7600E2C1BA /* SUIAlertView.m */,
+			);
+			path = SUIAlertView;
+			sourceTree = "<group>";
+		};
+		4247F76C15AFED7600E2C1BA /* SUIAutoSkinView */ = {
+			isa = PBXGroup;
+			children = (
+				4247F76D15AFED7600E2C1BA /* SUIAutoSkinButton.h */,
+				4247F76E15AFED7600E2C1BA /* SUIAutoSkinButton.m */,
+				4247F76F15AFED7600E2C1BA /* SUIAutoSkinImageView.h */,
+				4247F77015AFED7600E2C1BA /* SUIAutoSkinImageView.m */,
+				4247F77115AFED7600E2C1BA /* SUIAutoSkinManager.h */,
+				4247F77215AFED7600E2C1BA /* SUIAutoSkinManager.m */,
+				4247F77315AFED7600E2C1BA /* SUIAutoSkinView.h */,
+				4247F77415AFED7600E2C1BA /* SUIAutoSkinView.m */,
+				4247F77515AFED7600E2C1BA /* SUIAutoSkinViewModel.h */,
+				4247F77615AFED7600E2C1BA /* SUIAutoSkinViewModel.m */,
+			);
+			path = SUIAutoSkinView;
+			sourceTree = "<group>";
+		};
+		4247F77715AFED7600E2C1BA /* SUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				4247F77815AFED7600E2C1BA /* SUIButton.h */,
+				4247F77915AFED7600E2C1BA /* SUIButton.m */,
+			);
+			path = SUIButton;
+			sourceTree = "<group>";
+		};
+		4247F77A15AFED7600E2C1BA /* SUIGrowableTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4247F77B15AFED7600E2C1BA /* SUIGrowableScrollView.h */,
+				4247F77C15AFED7600E2C1BA /* SUIGrowableScrollView.m */,
+				4247F77D15AFED7600E2C1BA /* SUIGrowableTextView.h */,
+				4247F77E15AFED7600E2C1BA /* SUIGrowableTextView.m */,
+				4247F77F15AFED7600E2C1BA /* SUIInnerTextView.h */,
+				4247F78015AFED7600E2C1BA /* SUIInnerTextView.m */,
+			);
+			path = SUIGrowableTextView;
+			sourceTree = "<group>";
+		};
+		4247F78115AFED7600E2C1BA /* SUIScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4247F78215AFED7600E2C1BA /* SUIScrollLabel.h */,
+				4247F78315AFED7600E2C1BA /* SUIScrollLabel.m */,
+			);
+			path = SUIScrollLabel;
+			sourceTree = "<group>";
+		};
+		4247F78415AFED7600E2C1BA /* SUITableView */ = {
+			isa = PBXGroup;
+			children = (
+				4247F78515AFED7600E2C1BA /* SUICell.h */,
+				4247F78615AFED7600E2C1BA /* SUICell.m */,
+				4247F78715AFED7600E2C1BA /* SUICellModel.h */,
+				4247F78815AFED7600E2C1BA /* SUICellModel.m */,
+				4247F78915AFED7600E2C1BA /* SUICellModelMapping.h */,
+				4247F78A15AFED7600E2C1BA /* SUICellModelMapping.m */,
+				4247F78B15AFED7600E2C1BA /* SUIConstant.h */,
+				4247F78C15AFED7600E2C1BA /* SUIRuntime.h */,
+				4247F78D15AFED7600E2C1BA /* SUIRuntime.m */,
+				4247F78E15AFED7600E2C1BA /* SUISectionFooterModel.h */,
+				4247F78F15AFED7600E2C1BA /* SUISectionFooterModel.m */,
+				4247F79015AFED7600E2C1BA /* SUISectionHeaderFooterModel.h */,
+				4247F79115AFED7600E2C1BA /* SUISectionHeaderFooterModel.m */,
+				4247F79215AFED7600E2C1BA /* SUISectionHeaderModel.h */,
+				4247F79315AFED7600E2C1BA /* SUISectionHeaderModel.m */,
+				4247F79415AFED7600E2C1BA /* SUISectionModel.h */,
+				4247F79515AFED7600E2C1BA /* SUISectionModel.m */,
+				4247F79615AFED7600E2C1BA /* SUITableView.h */,
+				4247F79715AFED7600E2C1BA /* SUITableView.m */,
+			);
+			path = SUITableView;
+			sourceTree = "<group>";
+		};
+		4247F79815AFED7600E2C1BA /* SUIUnlockSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4247F79915AFED7600E2C1BA /* sliderMaxMin-02.png */,
+				4247F79A15AFED7600E2C1BA /* sliderThumb.png */,
+				4247F79B15AFED7600E2C1BA /* sliderTrack.png */,
+				4247F79C15AFED7600E2C1BA /* SUITwinkleLabel.h */,
+				4247F79D15AFED7600E2C1BA /* SUITwinkleLabel.m */,
+				4247F79E15AFED7600E2C1BA /* SUIUnlockSlider.h */,
+				4247F79F15AFED7600E2C1BA /* SUIUnlockSlider.m */,
+			);
+			path = SUIUnlockSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4247F73715AFECDF00E2C1BA /* SuperUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4247F75615AFECE000E2C1BA /* Build configuration list for PBXNativeTarget "SuperUIDemo" */;
+			buildPhases = (
+				4247F73415AFECDF00E2C1BA /* Sources */,
+				4247F73515AFECDF00E2C1BA /* Frameworks */,
+				4247F73615AFECDF00E2C1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperUIDemo;
+			productName = SuperUIDemo;
+			productReference = 4247F73815AFECDF00E2C1BA /* SuperUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4247F72F15AFECDF00E2C1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4247F73215AFECDF00E2C1BA /* Build configuration list for PBXProject "SuperUIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4247F72D15AFECDF00E2C1BA;
+			productRefGroup = 4247F73915AFECDF00E2C1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4247F73715AFECDF00E2C1BA /* SuperUIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4247F73615AFECDF00E2C1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247F74715AFECDF00E2C1BA /* InfoPlist.strings in Resources */,
+				4247F7B515AFED7600E2C1BA /* sliderMaxMin-02.png in Resources */,
+				4247F7B615AFED7600E2C1BA /* sliderThumb.png in Resources */,
+				4247F7B715AFED7600E2C1BA /* sliderTrack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4247F73415AFECDF00E2C1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247F74915AFECDF00E2C1BA /* main.m in Sources */,
+				4247F74D15AFECDF00E2C1BA /* AppDelegate.m in Sources */,
+				4247F75015AFECDF00E2C1BA /* ViewController.m in Sources */,
+				4247F7A015AFED7600E2C1BA /* OTRuntimeSel.m in Sources */,
+				4247F7A115AFED7600E2C1BA /* SUIAlertView.m in Sources */,
+				4247F7A215AFED7600E2C1BA /* SUIAutoSkinButton.m in Sources */,
+				4247F7A315AFED7600E2C1BA /* SUIAutoSkinImageView.m in Sources */,
+				4247F7A415AFED7600E2C1BA /* SUIAutoSkinManager.m in Sources */,
+				4247F7A515AFED7600E2C1BA /* SUIAutoSkinView.m in Sources */,
+				4247F7A615AFED7600E2C1BA /* SUIAutoSkinViewModel.m in Sources */,
+				4247F7A715AFED7600E2C1BA /* SUIButton.m in Sources */,
+				4247F7A815AFED7600E2C1BA /* SUIGrowableScrollView.m in Sources */,
+				4247F7A915AFED7600E2C1BA /* SUIGrowableTextView.m in Sources */,
+				4247F7AA15AFED7600E2C1BA /* SUIInnerTextView.m in Sources */,
+				4247F7AB15AFED7600E2C1BA /* SUIScrollLabel.m in Sources */,
+				4247F7AC15AFED7600E2C1BA /* SUICell.m in Sources */,
+				4247F7AD15AFED7600E2C1BA /* SUICellModel.m in Sources */,
+				4247F7AE15AFED7600E2C1BA /* SUICellModelMapping.m in Sources */,
+				4247F7AF15AFED7600E2C1BA /* SUIRuntime.m in Sources */,
+				4247F7B015AFED7600E2C1BA /* SUISectionFooterModel.m in Sources */,
+				4247F7B115AFED7600E2C1BA /* SUISectionHeaderFooterModel.m in Sources */,
+				4247F7B215AFED7600E2C1BA /* SUISectionHeaderModel.m in Sources */,
+				4247F7B315AFED7600E2C1BA /* SUISectionModel.m in Sources */,
+				4247F7B415AFED7600E2C1BA /* SUITableView.m in Sources */,
+				4247F7B815AFED7600E2C1BA /* SUITwinkleLabel.m in Sources */,
+				4247F7B915AFED7600E2C1BA /* SUIUnlockSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4247F74515AFECDF00E2C1BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4247F74615AFECDF00E2C1BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4247F75415AFECDF00E2C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4247F75515AFECE000E2C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4247F75715AFECE000E2C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperUIDemo/SuperUIDemo-Prefix.pch";
+				INFOPLIST_FILE = "SuperUIDemo/SuperUIDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4247F75815AFECE000E2C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperUIDemo/SuperUIDemo-Prefix.pch";
+				INFOPLIST_FILE = "SuperUIDemo/SuperUIDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4247F73215AFECDF00E2C1BA /* Build configuration list for PBXProject "SuperUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4247F75415AFECDF00E2C1BA /* Debug */,
+				4247F75515AFECE000E2C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4247F75615AFECE000E2C1BA /* Build configuration list for PBXNativeTarget "SuperUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4247F75715AFECE000E2C1BA /* Debug */,
+				4247F75815AFECE000E2C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4247F72F15AFECDF00E2C1BA /* Project object */;
+}
