@@ -30,6 +30,12 @@
     return _superTableView;
 }
 
+//设置superTableView,仅在初始化完成后在SUITableView中用objc_msgSend调用
+- (void)setSUISuperTableView:(SUITableView *)tableView
+{
+    _superTableView = tableView;
+}
+
 - (SUICellModel *)model
 {
     NSIndexPath *indexPath = [self.superTableView indexPathForCell:self];

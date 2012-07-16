@@ -163,6 +163,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseString];
     if (cell == nil) {
         cell = [[cellClass alloc] initWithStyle:cellModel.style reuseIdentifier:reuseString];
+        objc_msgSend(cell, @selector(setSUISuperTableView:), self);
     }
     NSAssert([cell isKindOfClass:[SUICell class]], CELL_MUST_BE_A_SUICELL);
     SUICell *suiCell = (SUICell *)cell;
