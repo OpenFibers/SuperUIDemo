@@ -40,6 +40,8 @@
 		4247F7B715AFED7600E2C1BA /* sliderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4247F79B15AFED7600E2C1BA /* sliderTrack.png */; };
 		4247F7B815AFED7600E2C1BA /* SUITwinkleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79D15AFED7600E2C1BA /* SUITwinkleLabel.m */; };
 		4247F7B915AFED7600E2C1BA /* SUIUnlockSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247F79F15AFED7600E2C1BA /* SUIUnlockSlider.m */; };
+		42A04CAB15C1927C00F2A0B1 /* SUITableViewCellPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A04CA815C1927C00F2A0B1 /* SUITableViewCellPanGestureRecognizer.m */; };
+		42A04CAC15C1927C00F2A0B1 /* UITableView+HorizontalMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A04CAA15C1927C00F2A0B1 /* UITableView+HorizontalMove.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +115,10 @@
 		4247F79D15AFED7600E2C1BA /* SUITwinkleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUITwinkleLabel.m; sourceTree = "<group>"; };
 		4247F79E15AFED7600E2C1BA /* SUIUnlockSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIUnlockSlider.h; sourceTree = "<group>"; };
 		4247F79F15AFED7600E2C1BA /* SUIUnlockSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIUnlockSlider.m; sourceTree = "<group>"; };
+		42A04CA715C1927C00F2A0B1 /* SUITableViewCellPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUITableViewCellPanGestureRecognizer.h; sourceTree = "<group>"; };
+		42A04CA815C1927C00F2A0B1 /* SUITableViewCellPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUITableViewCellPanGestureRecognizer.m; sourceTree = "<group>"; };
+		42A04CA915C1927C00F2A0B1 /* UITableView+HorizontalMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HorizontalMove.h"; sourceTree = "<group>"; };
+		42A04CAA15C1927C00F2A0B1 /* UITableView+HorizontalMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HorizontalMove.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +195,7 @@
 				4247F77715AFED7600E2C1BA /* SUIButton */,
 				4247F77A15AFED7600E2C1BA /* SUIGrowableTextView */,
 				4247F78115AFED7600E2C1BA /* SUIScrollLabel */,
+				42A04CA615C1927C00F2A0B1 /* SUIHorizontalMoveTableView */,
 				4247F78415AFED7600E2C1BA /* SUITableView */,
 				4247F79815AFED7600E2C1BA /* SUIUnlockSlider */,
 			);
@@ -309,6 +316,17 @@
 			path = SUIUnlockSlider;
 			sourceTree = "<group>";
 		};
+		42A04CA615C1927C00F2A0B1 /* SUIHorizontalMoveTableView */ = {
+			isa = PBXGroup;
+			children = (
+				42A04CA715C1927C00F2A0B1 /* SUITableViewCellPanGestureRecognizer.h */,
+				42A04CA815C1927C00F2A0B1 /* SUITableViewCellPanGestureRecognizer.m */,
+				42A04CA915C1927C00F2A0B1 /* UITableView+HorizontalMove.h */,
+				42A04CAA15C1927C00F2A0B1 /* UITableView+HorizontalMove.m */,
+			);
+			path = SUIHorizontalMoveTableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -399,6 +417,8 @@
 				4247F7B415AFED7600E2C1BA /* SUITableView.m in Sources */,
 				4247F7B815AFED7600E2C1BA /* SUITwinkleLabel.m in Sources */,
 				4247F7B915AFED7600E2C1BA /* SUIUnlockSlider.m in Sources */,
+				42A04CAB15C1927C00F2A0B1 /* SUITableViewCellPanGestureRecognizer.m in Sources */,
+				42A04CAC15C1927C00F2A0B1 /* UITableView+HorizontalMove.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +524,7 @@
 				4247F75815AFECE000E2C1BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
